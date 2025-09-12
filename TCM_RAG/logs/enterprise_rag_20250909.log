@@ -1,0 +1,114 @@
+{"asctime": "2025-09-09 11:44:06,333", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application startup event triggered."}
+{"asctime": "2025-09-09 11:44:06,334", "name": "enterprise_rag", "levelname": "INFO", "message": "EnterpriseRAGService initialized"}
+{"asctime": "2025-09-09 11:44:06,334", "name": "enterprise_rag", "levelname": "INFO", "message": "Starting RAG service initialization..."}
+{"asctime": "2025-09-09 11:44:07,858", "name": "enterprise_rag", "levelname": "INFO", "message": "Embedding model loaded on cuda"}
+{"asctime": "2025-09-09 11:44:21,320", "name": "enterprise_rag", "levelname": "INFO", "message": "Processing file: data/TCM.json"}
+{"asctime": "2025-09-09 11:44:21,322", "name": "enterprise_rag", "levelname": "INFO", "message": "Processed 100 documents from data"}
+{"asctime": "2025-09-09 11:44:21,337", "name": "enterprise_rag", "levelname": "INFO", "message": "Created 100 nodes from 100 documents"}
+{"asctime": "2025-09-09 11:44:25,250", "name": "enterprise_rag", "levelname": "INFO", "message": "Reranker model loaded successfully"}
+{"asctime": "2025-09-09 11:44:25,251", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service initialization completed successfully"}
+{"asctime": "2025-09-09 11:44:25,251", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service initialized successfully for FastAPI."}
+{"asctime": "2025-09-09 14:38:55,494", "name": "enterprise_rag", "levelname": "INFO", "message": "query_received", "query": "\u5934\u90e8\u6c89\u91cd\u75db\u80c0\uff0c\u75db\u52bf\u7f13\u6162\uff0c\u9047\u9634\u96e8\u5929\u52a0\u91cd", "user_id": "curl_user", "metadata": {}}
+{"asctime": "2025-09-09 14:38:55,519", "name": "enterprise_rag", "levelname": "INFO", "message": "Dense retrieval: 20 results"}
+{"asctime": "2025-09-09 14:38:55,521", "name": "enterprise_rag", "levelname": "INFO", "message": "Sparse retrieval: 40 results"}
+{"asctime": "2025-09-09 14:38:55,957", "name": "enterprise_rag", "levelname": "INFO", "message": "Initial rerank: top score = 0.9991, good results = 5"}
+{"asctime": "2025-09-09 14:38:56,098", "name": "enterprise_rag", "levelname": "INFO", "message": "retrieval_completed", "query": "\u5934\u90e8\u6c89\u91cd\u75db\u80c0\uff0c\u75db\u52bf\u7f13\u6162\uff0c\u9047\u9634\u96e8\u5929\u52a0\u91cd", "num_results": 5, "retrieval_time": 0.6015772819519043}
+{"asctime": "2025-09-09 15:32:02,085", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application shutdown event triggered."}
+{"asctime": "2025-09-09 15:32:02,086", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service metrics exported."}
+{"asctime": "2025-09-09 15:32:02,086", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application shutdown completed."}
+{"asctime": "2025-09-09 15:32:07,716", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application startup event triggered."}
+{"asctime": "2025-09-09 15:32:07,717", "name": "enterprise_rag", "levelname": "INFO", "message": "EnterpriseRAGService initialized"}
+{"asctime": "2025-09-09 15:32:07,717", "name": "enterprise_rag", "levelname": "INFO", "message": "Starting RAG service initialization..."}
+{"asctime": "2025-09-09 15:32:09,425", "name": "enterprise_rag", "levelname": "INFO", "message": "Embedding model loaded on cuda"}
+{"asctime": "2025-09-09 15:32:22,518", "name": "enterprise_rag", "levelname": "INFO", "message": "Processing file: data/TCM.json"}
+{"asctime": "2025-09-09 15:32:22,520", "name": "enterprise_rag", "levelname": "INFO", "message": "Processed 100 documents from data"}
+{"asctime": "2025-09-09 15:32:22,537", "name": "enterprise_rag", "levelname": "INFO", "message": "Created 100 nodes from 100 documents"}
+{"asctime": "2025-09-09 15:32:26,365", "name": "enterprise_rag", "levelname": "INFO", "message": "Reranker model loaded successfully"}
+{"asctime": "2025-09-09 15:32:26,366", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service initialization completed successfully"}
+{"asctime": "2025-09-09 15:32:26,366", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service initialized successfully for FastAPI."}
+{"asctime": "2025-09-09 15:32:54,652", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application shutdown event triggered."}
+{"asctime": "2025-09-09 15:32:54,652", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service metrics exported."}
+{"asctime": "2025-09-09 15:32:54,652", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application shutdown completed."}
+{"asctime": "2025-09-09 15:33:00,765", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application startup event triggered."}
+{"asctime": "2025-09-09 15:33:00,766", "name": "enterprise_rag", "levelname": "INFO", "message": "EnterpriseRAGService initialized"}
+{"asctime": "2025-09-09 15:33:00,766", "name": "enterprise_rag", "levelname": "INFO", "message": "Starting RAG service initialization..."}
+{"asctime": "2025-09-09 15:33:02,563", "name": "enterprise_rag", "levelname": "INFO", "message": "Embedding model loaded on cuda"}
+{"asctime": "2025-09-09 15:33:11,359", "name": "enterprise_rag", "levelname": "INFO", "message": "Processing file: data/TCM.json"}
+{"asctime": "2025-09-09 15:33:11,361", "name": "enterprise_rag", "levelname": "INFO", "message": "Processed 100 documents from data"}
+{"asctime": "2025-09-09 15:33:11,377", "name": "enterprise_rag", "levelname": "INFO", "message": "Created 100 nodes from 100 documents"}
+{"asctime": "2025-09-09 15:33:14,977", "name": "enterprise_rag", "levelname": "INFO", "message": "Reranker model loaded successfully"}
+{"asctime": "2025-09-09 15:33:14,978", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service initialization completed successfully"}
+{"asctime": "2025-09-09 15:33:14,979", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service initialized successfully for FastAPI."}
+{"asctime": "2025-09-09 15:33:20,471", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application startup event triggered."}
+{"asctime": "2025-09-09 15:33:20,471", "name": "enterprise_rag", "levelname": "INFO", "message": "EnterpriseRAGService initialized"}
+{"asctime": "2025-09-09 15:33:20,472", "name": "enterprise_rag", "levelname": "INFO", "message": "Starting RAG service initialization..."}
+{"asctime": "2025-09-09 15:33:21,540", "name": "enterprise_rag", "levelname": "INFO", "message": "Embedding model loaded on cuda"}
+{"asctime": "2025-09-09 15:33:29,781", "name": "enterprise_rag", "levelname": "INFO", "message": "Processing file: data/TCM.json"}
+{"asctime": "2025-09-09 15:33:29,783", "name": "enterprise_rag", "levelname": "INFO", "message": "Processed 100 documents from data"}
+{"asctime": "2025-09-09 15:33:29,800", "name": "enterprise_rag", "levelname": "INFO", "message": "Created 100 nodes from 100 documents"}
+{"asctime": "2025-09-09 15:33:32,626", "name": "enterprise_rag", "levelname": "INFO", "message": "Reranker model loaded successfully"}
+{"asctime": "2025-09-09 15:33:32,626", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service initialization completed successfully"}
+{"asctime": "2025-09-09 15:33:32,626", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service initialized successfully for FastAPI."}
+{"asctime": "2025-09-09 15:38:52,844", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application shutdown event triggered."}
+{"asctime": "2025-09-09 15:38:52,844", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service metrics exported."}
+{"asctime": "2025-09-09 15:38:52,844", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application shutdown completed."}
+{"asctime": "2025-09-09 15:39:23,857", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application startup event triggered."}
+{"asctime": "2025-09-09 15:39:23,857", "name": "enterprise_rag", "levelname": "INFO", "message": "EnterpriseRAGService initialized"}
+{"asctime": "2025-09-09 15:39:23,858", "name": "enterprise_rag", "levelname": "INFO", "message": "Starting RAG service initialization..."}
+{"asctime": "2025-09-09 15:39:24,951", "name": "enterprise_rag", "levelname": "INFO", "message": "Embedding model loaded on cuda"}
+{"asctime": "2025-09-09 15:39:31,781", "name": "enterprise_rag", "levelname": "INFO", "message": "Processing file: data/TCM.json"}
+{"asctime": "2025-09-09 15:39:31,783", "name": "enterprise_rag", "levelname": "INFO", "message": "Processed 100 documents from data"}
+{"asctime": "2025-09-09 15:39:31,798", "name": "enterprise_rag", "levelname": "INFO", "message": "Created 100 nodes from 100 documents"}
+{"asctime": "2025-09-09 15:39:34,110", "name": "enterprise_rag", "levelname": "INFO", "message": "Reranker model loaded successfully"}
+{"asctime": "2025-09-09 15:39:34,110", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service initialization completed successfully"}
+{"asctime": "2025-09-09 15:39:34,111", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service initialized successfully for FastAPI."}
+{"asctime": "2025-09-09 15:44:32,154", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application shutdown event triggered."}
+{"asctime": "2025-09-09 15:44:32,154", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service metrics exported."}
+{"asctime": "2025-09-09 15:44:32,155", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application shutdown completed."}
+{"asctime": "2025-09-09 15:44:47,691", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application startup event triggered."}
+{"asctime": "2025-09-09 15:44:47,691", "name": "enterprise_rag", "levelname": "INFO", "message": "EnterpriseRAGService initialized"}
+{"asctime": "2025-09-09 15:44:47,691", "name": "enterprise_rag", "levelname": "INFO", "message": "Starting RAG service initialization..."}
+{"asctime": "2025-09-09 15:44:48,595", "name": "enterprise_rag", "levelname": "INFO", "message": "Embedding model loaded on cuda"}
+{"asctime": "2025-09-09 15:44:56,841", "name": "enterprise_rag", "levelname": "INFO", "message": "Processing file: data/TCM.json"}
+{"asctime": "2025-09-09 15:44:56,843", "name": "enterprise_rag", "levelname": "INFO", "message": "Processed 100 documents from data"}
+{"asctime": "2025-09-09 15:44:56,858", "name": "enterprise_rag", "levelname": "INFO", "message": "Created 100 nodes from 100 documents"}
+{"asctime": "2025-09-09 15:45:00,495", "name": "enterprise_rag", "levelname": "INFO", "message": "Reranker model loaded successfully"}
+{"asctime": "2025-09-09 15:45:00,496", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service initialization completed successfully"}
+{"asctime": "2025-09-09 15:45:00,497", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service initialized successfully for FastAPI."}
+{"asctime": "2025-09-09 15:47:28,909", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application shutdown event triggered."}
+{"asctime": "2025-09-09 15:47:28,909", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service metrics exported."}
+{"asctime": "2025-09-09 15:47:28,909", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application shutdown completed."}
+{"asctime": "2025-09-09 15:47:46,443", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application startup event triggered."}
+{"asctime": "2025-09-09 15:47:46,443", "name": "enterprise_rag", "levelname": "INFO", "message": "EnterpriseRAGService initialized"}
+{"asctime": "2025-09-09 15:47:46,443", "name": "enterprise_rag", "levelname": "INFO", "message": "Starting RAG service initialization..."}
+{"asctime": "2025-09-09 15:47:47,187", "name": "enterprise_rag", "levelname": "INFO", "message": "Embedding model loaded on cuda"}
+{"asctime": "2025-09-09 15:47:52,669", "name": "enterprise_rag", "levelname": "INFO", "message": "Processing file: data/TCM.json"}
+{"asctime": "2025-09-09 15:47:52,671", "name": "enterprise_rag", "levelname": "INFO", "message": "Processed 100 documents from data"}
+{"asctime": "2025-09-09 15:47:52,685", "name": "enterprise_rag", "levelname": "INFO", "message": "Created 100 nodes from 100 documents"}
+{"asctime": "2025-09-09 15:47:55,170", "name": "enterprise_rag", "levelname": "INFO", "message": "Reranker model loaded successfully"}
+{"asctime": "2025-09-09 15:47:55,170", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service initialization completed successfully"}
+{"asctime": "2025-09-09 15:47:55,171", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service initialized successfully for FastAPI."}
+{"asctime": "2025-09-09 15:48:14,816", "name": "enterprise_rag", "levelname": "INFO", "message": "query_received", "query": "\u5934\u6655", "user_id": "streamlit_user", "metadata": {}}
+{"asctime": "2025-09-09 15:48:15,185", "name": "enterprise_rag", "levelname": "INFO", "message": "Embedded 1 sentences in 0.37s"}
+{"asctime": "2025-09-09 15:48:15,196", "name": "enterprise_rag", "levelname": "INFO", "message": "Dense retrieval: 20 results"}
+{"asctime": "2025-09-09 15:48:15,197", "name": "enterprise_rag", "levelname": "INFO", "message": "Sparse retrieval: 40 results"}
+{"asctime": "2025-09-09 15:48:15,343", "name": "enterprise_rag", "levelname": "INFO", "message": "Initial rerank: top score = 0.6403, good results = 6"}
+{"asctime": "2025-09-09 15:48:15,471", "name": "enterprise_rag", "levelname": "INFO", "message": "retrieval_completed", "query": "\u5934\u6655", "num_results": 6, "retrieval_time": 0.6538012027740479}
+{"asctime": "2025-09-09 15:57:30,193", "name": "enterprise_rag", "levelname": "INFO", "message": "query_received", "query": "\u809a\u5b50\u5927\uff0c\u65e9\u4e0a\u55d3\u5b50\u6709\u75f0\uff0c\u820c\u82d4\u767d\u817b", "user_id": "streamlit_user", "metadata": {}}
+{"asctime": "2025-09-09 15:57:30,216", "name": "enterprise_rag", "levelname": "INFO", "message": "Embedded 1 sentences in 0.02s"}
+{"asctime": "2025-09-09 15:57:30,221", "name": "enterprise_rag", "levelname": "INFO", "message": "Dense retrieval: 20 results"}
+{"asctime": "2025-09-09 15:57:30,222", "name": "enterprise_rag", "levelname": "INFO", "message": "Sparse retrieval: 40 results"}
+{"asctime": "2025-09-09 15:57:30,365", "name": "enterprise_rag", "levelname": "INFO", "message": "Initial rerank: top score = 0.9666, good results = 8"}
+{"asctime": "2025-09-09 15:57:30,516", "name": "enterprise_rag", "levelname": "INFO", "message": "retrieval_completed", "query": "\u809a\u5b50\u5927\uff0c\u65e9\u4e0a\u55d3\u5b50\u6709\u75f0\uff0c\u820c\u82d4\u767d\u817b", "num_results": 8, "retrieval_time": 0.3180735111236572}
+{"asctime": "2025-09-09 16:03:59,267", "name": "enterprise_rag", "levelname": "INFO", "message": "query_received", "query": "\u80c6\u56fa\u9187\u9ad8", "user_id": "streamlit_user", "metadata": {}}
+{"asctime": "2025-09-09 16:03:59,292", "name": "enterprise_rag", "levelname": "INFO", "message": "Embedded 1 sentences in 0.02s"}
+{"asctime": "2025-09-09 16:03:59,319", "name": "enterprise_rag", "levelname": "INFO", "message": "Dense retrieval: 20 results"}
+{"asctime": "2025-09-09 16:03:59,319", "name": "enterprise_rag", "levelname": "INFO", "message": "Sparse retrieval: 40 results"}
+{"asctime": "2025-09-09 16:03:59,454", "name": "enterprise_rag", "levelname": "INFO", "message": "Initial rerank: top score = 0.2046, good results = 0"}
+{"asctime": "2025-09-09 16:03:59,454", "name": "enterprise_rag", "levelname": "INFO", "message": "Triggering query expansion..."}
+{"asctime": "2025-09-09 16:04:01,040", "name": "enterprise_rag", "levelname": "INFO", "message": "Embedded 1 sentences in 0.01s"}
+{"asctime": "2025-09-09 16:04:01,051", "name": "enterprise_rag", "levelname": "INFO", "message": "Embedded 1 sentences in 0.01s"}
+{"asctime": "2025-09-09 16:04:01,206", "name": "enterprise_rag", "levelname": "INFO", "message": "retrieval_completed", "query": "\u80c6\u56fa\u9187\u9ad8", "num_results": 0, "retrieval_time": 1.9384589195251465}
+{"asctime": "2025-09-09 19:37:42,263", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application shutdown event triggered."}
+{"asctime": "2025-09-09 19:37:42,263", "name": "enterprise_rag", "levelname": "INFO", "message": "RAG service metrics exported."}
+{"asctime": "2025-09-09 19:37:42,263", "name": "enterprise_rag", "levelname": "INFO", "message": "FastAPI application shutdown completed."}
