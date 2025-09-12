@@ -107,8 +107,8 @@ streamlit run ui/streamlit_app.py
 ├── data/  # 知识库数据目录
 │   └── TCM.json             # 您的中医知识库文件
 ├── models/                  # 模型封装与加载逻辑
-│   └── embeddings.py        # 嵌入模型封装 (BAAI/bge-large-zh)
-
+│   ├── QWEN                 # qwen模型
+│   └── BAAI                 # embedding模型和rerank模型
 ├── services/                # RAG 核心业务逻辑
 │   ├── rag_service.py       # RAG 服务核心 (协调各组件)
 │   ├── document_processor.py# 文档加载、分块与节点创建
