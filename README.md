@@ -125,20 +125,7 @@ streamlit run ui/streamlit_app.py
 ├── streamlit_app.py         # Streamlit 前端应用
 └── logs/  # 日志文件输出目录
 
-## 🤝 贡献
 
-欢迎任何形式的贡献！如果你有改进建议、发现了 Bug 或想添加新功能，请通过以下方式参与：
-
-
-    Fork 本仓库。
-    
-    创建新的功能分支 (git checkout -b feature/AmazingFeature)。
-    
-    提交你的改动 (git commit -m 'Add some AmazingFeature')。
-    
-    推送到分支 (git push origin feature/AmazingFeature)。
-    
-    打开 Pull Request。
 
 ## 📜 许可证
 
