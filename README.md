@@ -1,4 +1,4 @@
-# Enterprise Traditional Chinese Medicine RAG System (企业级中医知识问答系统)
+# Enterprise-level Chinese knowledge Q&A system (企业级中文知识问答系统)
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.110.0-green.svg)
@@ -10,11 +10,11 @@
 
 ## 📖 项目简介
 
-本项目旨在构建一个**高效、精准的企业级中医知识问答系统**，利用先进的**检索增强生成 (Retrieval-Augmented Generation, RAG)** 技术，结合大规模语言模型 (LLM) 和专业中医知识库，为用户提供智能、权威的问答服务。系统解决了传统中医文献检索效率低下、信息孤岛严重的问题，大幅提升了知识获取效率和辅助决策能力。
+本项目旨在构建一个**高效、精准的企业级知识问答系统**，利用先进的**检索增强生成 (Retrieval-Augmented Generation, RAG)** 技术，结合大规模语言模型 (LLM) 和专业知识库，为用户提供智能、权威的问答服务。系统解决了传统问答检索效率低下、信息孤岛严重的问题，大幅提升了知识获取效率和辅助决策能力。
 
 ### ✨ 核心功能与特点
 
-*   **智能问答：** 针对用户提出的中医病症、诊断、治疗、药方等问题，提供准确、连贯且有据可查的答案。
+*   **智能问答：** 针对用户提出的产品等问题，提供准确、连贯且有据可查的答案。
 *   **混合检索策略：** 结合语义检索 (向量相似度) 和关键词检索 (BM25)，确保从海量知识库中召回最相关、最全面的上下文信息。
 *   **高性能 Reranking：** 通过独立的重排模型对初次检索结果进行精细排序，进一步提升上下文与查询的相关性。
 *   **实时交互界面：** 提供基于 Streamlit 的用户友好型 Web 界面，支持实时问答与结果展示。
@@ -31,11 +31,11 @@
 ## 💻 技术栈
 
 
-    检索增强生成 (RAG) 架构： 采用混合检索策略（Dense + Sparse），结合语义检索和关键词检索优势，确保从海量中医知识库中召回最相关的上下文信息。
+    检索增强生成 (RAG) 架构： 采用混合检索策略（Dense + Sparse），结合语义检索和关键词检索优势，确保从海量知识库中召回最相关的上下文信息。
     
     LLM 集成 (HuggingFaceLLM)： 深度集成 HuggingFaceLLM，加载并利用 Qwen2-7B-Instruct 等大型语言模型进行答案生成，确保回答的准确性、连贯性和专业性。
     
-    向量数据库 (Milvus)： 利用高性能向量数据库 Milvus 存储和管理中医知识文档的嵌入向量，实现高效的语义相似度检索。
+    向量数据库 (Milvus)： 利用高性能向量数据库 Milvus 存储和管理知识文档的嵌入向量，实现高效的语义相似度检索。
     
     高性能嵌入与重排 (Embedding & Reranking)： 采用 BAAI/bge-large-zh 作为嵌入模型，提升中文文本的语义表示能力；引入 BAAI/bge-reranker-base 进行文档重排，优化检索结果的相关性，提高RAG召回质量。
     
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 
 步骤 3: 准备知识库数据
 
-确保你的中医知识库文件（例如 TCM.json）放置在项目根目录下的 data/ 目录中。
+确保你的知识库文件（例如 TCM.json）放置在项目根目录下的 data/ 目录中。
 
 步骤4：启动milvus-standalone和redis服务
 
@@ -104,7 +104,7 @@ streamlit run ui/streamlit_app.py
 ├── config/                  # 系统配置文件
 │   └── settings.py          # 全局配置 (模型路径, Milvus, Redis, 应用设置等)
 ├── data/  # 知识库数据目录
-│   └── TCM.json             # 您的中医知识库文件
+│   └── TCM.json             # 您的知识库文件
 ├── models/                  # 模型封装与加载逻辑
 │   ├── QWEN                 # qwen模型
 │   └── BAAI                 # embedding模型和rerank模型
